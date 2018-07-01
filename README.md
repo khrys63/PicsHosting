@@ -23,6 +23,17 @@ One url to view and navigate in your files :
 https://yourdomain/pics-hosting/
 ```
 
+### How it work?
+Simple usage :) :
+1 - Copy all files and folders in your pics repository.
+2 - Use </upload/index.html> ur to uplmoad tour png or jpg file
+2.1 - Files will be upload on ../ folder. So, your repository
+3 - Use </index.php> url to browse youre repository
+3.1 - The first time, alls news pics will be thumbed in /thumb repository
+3.2 - The page has a pager by 20 pics by page.
+4 - Clic on a thumb to get the pics in full size with all share url.
+
+
 ### Authentication
 Protect /upload with an .htaccess file.
 
