@@ -1,0 +1,92 @@
+.link{
+    margin-top: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+}
+label{
+    width: 30%;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+input{
+    width: 60%;
+}
+p.center, h1, h3 {
+    text-align: center;
+}
+a,a:focus,a:visited{
+    color: #2980b9;
+    text-decoration: none;
+}
+a:hover{
+    color:#f90;
+    text-decoration: underline;
+}
+a img,img {
+    border: 0;
+}
+body{ 
+    margin: 0;
+    padding: 0;
+}
+div.pager{
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+	text-align:center;
+    font-size: 10px;
+}
+div.pager a, div.pager span{
+    margin-right: 5px;
+    padding: 3px;
+}
+div.pager span.active{
+	font-weight: bold;
+	color: white;
+	border: 1px solid #0D62C3;
+	background-color: #0D62C3;
+}
+div.pagerspan.dot {
+    color: #000;
+    border: 1px solid #83A0C1;
+}
+div.pager span.disabled {
+    color: #C6C7C7;
+    border: 1px solid #C6C7C7;
+    background-color: white;
+}
+div.pager a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #83A0C1;
+}
+div.pager a:hover {
+    color: #000;
+    border: 1px solid #000;
+    background-color: white;
+}
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    label{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 460px) {
+    p.center {
+        width: 320px;
+        margin: auto;
+    }
+}

@@ -28,7 +28,10 @@ Protect /upload with an .htaccess file.
 
 ## Authors
 * **Christophe** - *Initial work* - [khrys63](https://github.com/khrys63)
-* Base on [Simple Photo Album](http://ilannweb.free.fr) by Ilann C, for the thumbnails generator.
+
+## Inspired by
+* [Simple Photo Album](http://ilannweb.free.fr) by Ilann C, for the thumbnails generator.
+* [HTML5 Drag and Drop Multiple File Uploader](http://www.script-tutorials.com/html5-drag-and-drop-multiple-file-uploader/) by Andrey Prikaznov, for the upload page.
 
 ## License
 This project is licensed under Apache 2.0.
